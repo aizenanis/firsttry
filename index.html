@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Group 1</h1>
+        <p>I'm [Your Name], a passionate [Your Role, e.g., Web Developer].</p>
+        <button onclick="scrollToSection('projects')">View My Work</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm [Your Name], a [brief introduction about yourself]. I specialize in [your skills] and have a passion for [your interests].</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Brief description of the project.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Brief description of the project.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
